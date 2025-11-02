@@ -96,8 +96,8 @@ class MTech extends Student{
 		this.Branch = Branch;
 	}
 	public String toString() {
-        return "MTech Student Details:\n" +
-               "Name: " + this.Name + "\n" +
+        return "MTech Student Details(can also add the mtech students):\n" +
+               "Name: " +   this.Name + "\n" +
                "Age: " + this.Age + "\n" +
                "Blood Group: " + this.Blood_group + "\n" +
                "Branch: " + this.Branch + "\n" +
